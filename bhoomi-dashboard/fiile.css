@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f4f7f4;
+  color: #222;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+button:hover { opacity: 0.88; }
+// Change this:
+const BACKEND = 'http://localhost:3001';
+// To whatever Member 2 gives you, e.g.:
+const BACKEND = 'https://bhoomi-backend.railway.app';
