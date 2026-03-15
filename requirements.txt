@@ -1,0 +1,7 @@
+langchain
+langchain-community
+anthropic
+openai
+python-dotenv
+requests
+schedule
