@@ -29,15 +29,6 @@ Bhoomi is a fully autonomous AI system that:
 
 ---
 
-## 🏗️ Architecture
-```
-Weather API → AI Tier Classifier → Groq LLM (Message Writer) → Twilio (Voice Calls)
-                                                              → SMS (Advisory)
-                                                              → Dashboard (Live Status)
-```
-
----
-
 ## 📊 Alert Tier System
 
 | Tier | Level | Action | Example |
@@ -123,17 +114,6 @@ TWILIO_PHONE_NUMBER=your-number
 ```
 
 ---
-
-## 🎯 Demo Flow
-
-1. Register a villager on the dashboard
-2. Run `python demo_trigger.py` to trigger Tier 1 flood alert
-3. AI writes Tamil/Hindi/Telugu messages automatically
-4. Phone rings with flood warning in 30 seconds
-5. Dashboard updates with confirmed status
-
----
-
 ## 💡 Impact
 
 - **Zero infrastructure needed** — works on any button phone
@@ -141,11 +121,6 @@ TWILIO_PHONE_NUMBER=your-number
 - **$0.01 per call** — life-saving alerts at minimal cost
 - **3 languages** supported — Tamil, Hindi, Telugu
 
----
-
-## 🏆 Built at Tech Hacks 2.0
-
-> *350 million people have no smartphone. Bhoomi gives them a lifeline.*
 
 SDG 13 — Climate Action | Problem Statement 8
 ```
